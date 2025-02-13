@@ -19,7 +19,7 @@ passos:
 
 Resultado esperado:
 
-- O sistema exibe a mensagem: "Insira o código do email".
+- O sistema exibe a mensagem: "Insira o código do email"
 
 - Um código de verificação é enviado para "joaquimotavioalves@gmail.com"
 
