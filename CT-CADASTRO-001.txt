@@ -1,0 +1,25 @@
+ID: CT-CADASTRO-001
+
+Título:cadastro de novo usuário
+
+Pré-condições:usuário deve estar na pagina inicial do facebook https://www.facebook.com
+
+"O email 'joaquimotavioalves@gmail.com' não está associado a uma conta do Facebook existente."
+
+passos:
+
+1- clicar em "Criar nova conta"
+2- No campo nome ,inserir "Joaquim"
+3- No campo Sobrenome,inserir "Otávio Alves"
+4- inserir data de nascimento "10/01/1994"
+5- Escolher gênero "Masculino"
+6- No campo celular ou email, inserir um celular ou email válido "joaquimotavioalves@gmail.com"
+7- No campo nova senha,inserir "YRh4lliRST"
+8- Clicar em "cadastre-se"
+
+Resultado esperado:
+
+- O sistema exibe a mensagem: "Insira o código do email".
+
+- Um código de verificação é enviado para "joaquimotavioalves@gmail.com"
+
