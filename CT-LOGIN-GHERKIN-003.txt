@@ -1,0 +1,11 @@
+Funcionalidade:login negativo facebook
+
+ID:LOGIN-003
+Descrição:Como usuário registrado,quero realizar login com credenciais inválidas(email) para que o sistema me apresente mensagem de erro.
+
+Cenário:Login negativo com credenciais inválida(email)
+
+Dado que o usuário acessa a URL "https://www.facebook.com/"
+E o usuário insere o email "joaquimotavioalvesgmail.com"
+E o usuário insere a senha "YRh4lliRST"
+Então o sistema deve apresentar a mensagem "O email ou o número de celular que você inseriu não está conectado a uma conta. Encontre sua conta e entre."

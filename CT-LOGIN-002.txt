@@ -1,0 +1,17 @@
+ID:CT-login-002
+Título:login negativo com credenciais inválidas(senha)
+
+
+Pré-condições: O navegador deve estar aberto e direcionado para a URL de login do Facebook: (https://www.facebook.com/)
+
+
+Passos:
+
+No campo email inserir o email ("joaquimotavioalves@gmail.com")
+No campo senha inserir a senha "senhaincorreta123"
+Clicar no botão entrar
+
+Resultado esperado:
+
+O sistema deve apresentar a mensagem "A senha que você inseriu está incorreta. 
+Esqueceu a senha?"

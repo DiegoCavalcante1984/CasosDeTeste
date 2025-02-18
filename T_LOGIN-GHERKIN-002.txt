@@ -1,0 +1,12 @@
+Funcionalidade: Login negativo no Facebook
+
+ID: LOGIN-002
+Descrição: Como usuário registrado, quero realizar login com credenciais inválidas para que o sistema apresente uma mensagem de erro.
+
+Cenário: Login negativo com credenciais inválidas (senha)
+
+Dado que o usuário acessa a URL do Facebook "https://www.facebook.com/"
+E o usuário insere o email "joaquimotavioalves@gmail.com"
+E insere a senha "senha inválida123"
+E clica no botão "Entrar"
+Então o sistema deve exibir a mensagem "A senha que você inseriu está incorreta. Esqueceu a senha?"

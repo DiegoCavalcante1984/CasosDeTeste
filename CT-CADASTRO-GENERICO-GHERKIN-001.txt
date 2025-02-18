@@ -1,0 +1,20 @@
+Funcionalidade:Cadastro de novo usuário facebook
+
+ID-CADASTRO-001
+Descrição:Como usuário quero realizar novo cadastro com credenciais não associadas a uma conta facebook
+
+
+Cenário:Cadastro de novo usuário facebook
+
+Dado que o usuário acessa a URL "https://www.facebook.com/"
+E clica em "Criar nova conta"
+E no campo "Nome" insere "nome"
+E no campo "Sobrenome" insere "sobrenome"
+E no campo "Data de nascimento" insere "data válida"
+E no campo "Email ou telefone" insere "email"
+E no campo "Nova senha" insere "senha"
+E clica em "Cadastre-se"
+Então o sistema exibe a mensagem: "Insira o código do email"
+E um código de verificação é enviado para "email"
+
+

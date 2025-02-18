@@ -1,5 +1,7 @@
 ID: CT-CADASTRO-002
 Título: Confirmação de cadastro com código de verificação.
+
+
 Pré-condições:
 
 O código de verificação foi enviado para "joaquimotavioalves@gmail.com"(após execução de CT-REG-001).

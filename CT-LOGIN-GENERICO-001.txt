@@ -1,0 +1,15 @@
+CT-LOGIN-GENÉRICO-001
+Título:Login genérico positivo
+
+Pré-condiçoes:
+
+Pré-condições: O navegador deve estar aberto e direcionado para a URL de login do Facebook: (https://www.facebook.com/)
+
+Passos:
+No campo email,inserir email válido.
+No campo senha ,inserir senha válida
+Clicar no botão entrar
+
+Resultado esperado:
+
+O sistema deve direcionar o usuário a pagina de perfil.

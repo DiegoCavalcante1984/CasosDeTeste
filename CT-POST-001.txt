@@ -1,0 +1,18 @@
+ID-POST-001
+Título:Criando um post.
+
+Pre-condições:
+
+Pré-condições: O navegador deve estar aberto e direcionado para a URL de perfil do Facebook: (https://web.facebook.com/?sk=welcome&_rdc=1&_rdr#)
+
+passos:
+
+Clicar no botão de menu no menu
+no sub-menu "criar",clicar no link post.
+Na caixa de texto digitar a frase "post de teste".
+clicar no botão postar.
+
+
+Resultado esperado:
+
+O sistema deve direcionar o usuário a pagina de perfil URL("https://web.facebook.com/?sk=welcome&_rdc=1&_rdr#")

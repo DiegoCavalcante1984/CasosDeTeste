@@ -1,0 +1,15 @@
+ID:LOGIN-001
+titulo:login positivo facebook
+
+
+Pré-condições: O navegador deve estar aberto e direcionado para a URL de login do Facebook: (https://www.facebook.com/)
+
+passos:
+
+No campo email inserir o email "joaquimotavioalves@gmail.com"
+No campo senha inserir a senha "YRh4lliRST"
+Clicar no botão entrar
+
+resultado esparado:
+
+O sistema deve direcionar o usuário para pagina de perfil.

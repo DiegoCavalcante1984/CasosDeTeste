@@ -1,0 +1,16 @@
+Funcionalidade:Login positivo facebook
+
+ID:LOGIN-001
+Descrição:Como usúario registrado
+Quero realizar login com credenciais válidas
+Para acessar minha conta do facebook
+
+Cenário:Login bem sucedido com credenciais válidas
+
+Dado que estou na página de login do facebook
+E o navegado está aberto na URL "https://www.facebook.com/"
+Quando preencho o campo email com "joaquimotavioalves@gmail.com"
+E preecho o senha com "YRh4lliRST"
+E clico no botão entrar
+Então devo ser direcionado para página de perfil de usuário
+

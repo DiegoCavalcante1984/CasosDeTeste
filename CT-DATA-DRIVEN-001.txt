@@ -1,0 +1,33 @@
+CT-LOGIN-DATA-DRIVEN
+Título: Login genérico positivo com múltiplos conjuntos de dados
+
+Pré-condições
+Navegador aberto e direcionado para a URL de login do Facebook: https://www.facebook.com/.
+
+Arquivo de dados externo (ex.: login_data.xlsx, login_data.csv) contendo combinações válidas de email/senha disponível no diretório do projeto.
+
+Fonte de Dados
+Estrutura do arquivo de dados:
+
+Email	                Senha
+usuario1@email.com	    SenhaValida1
+5511999999999	        SenhaValida2
+usuario2@email.com	    SenhaValida3
+
+
+
+Passos (Executados para cada linha do arquivo de dados)
+No campo email:
+
+Inserir o valor no campo Email do conjunto de dados atual.
+
+No campo senha:
+
+Inserir o valor no campo Senha do conjunto de dados atual.
+
+Clicar no botão "Entrar".
+
+Resultado Esperado                      
+Para cada combinação de dados válidos:
+
+O sistema deve direcionar o usuário para a página de perfil do Facebook (URL contendo https://www.facebook.com/profile.php ou similar).
